@@ -10,26 +10,15 @@ body {
     color: white;
 }
 
-/* Position properties */
-.flex-container {
-    display: flex;
-    flex-direction: column;
-
-    height: 100vh;
+/* Dimension properties  */
+.w-20 {
+    width: 20%;
 }
 
- /* Header properties */
-header {
-    height: 50px;
-    background-color: black;
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-    padding: 5px;
+.w-60 {
+    width: 60%;
 }
-
+/* Element properties */
 .button {
     background-color: rgb(74, 74, 74);
     border-radius: 5px;
@@ -38,12 +27,88 @@ header {
     margin: 0 5px;
 }
 
-footer {
-    height: 100px;
-    background-color: red;
+.button-footer {
+    padding: 15px;
+
+    align-items: center;
+
+    font-weight: bold;
 }
 
+/* General properties */
+.flex {
+    display: flex;
+}
+
+body > .flex {
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+ /* Header properties */
+header {
+    
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 15px;
+}
+
+/* Main properties */
 main {
     flex-grow: 1;
     background-color: black;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+
+    padding: 20px;
+}
+
+.partecipant {
+    height: 180px;
+    width: 300px;
+    margin: 10px;
+
+    background-image: url(https://picsum.photos/246/146);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.partecipant .name {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+/* Footer properties */
+footer {
+    display: flex;
+    background-color: rgb(34 ,34 ,34);
+}
+
+.button-footer .fas {
+    margin: 10px;
+}
+
+.button-footer .flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > .flex:nth-of-type(2) {
+    justify-content: center;
 }
