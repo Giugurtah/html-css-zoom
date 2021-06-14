@@ -4,3 +4,46 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Position properties */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+ /* Header properties */
+header {
+    height: 50px;
+    background-color: black;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 5px;
+}
+
+.button {
+    background-color: rgb(74, 74, 74);
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 0 5px;
+}
+
+footer {
+    height: 100px;
+    background-color: red;
+}
+
+main {
+    flex-grow: 1;
+    background-color: black;
+}
