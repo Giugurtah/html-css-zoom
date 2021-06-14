@@ -18,6 +18,25 @@ body {
 .w-60 {
     width: 60%;
 }
+
+.f-icon {
+    font-size: 25px;
+}
+
+.f-text {
+    font-size: 15px;
+}
+
+/* Color properties */
+.green {
+    color: green;
+}
+
+.black-background {
+    background-color: black;
+}
+
+
 /* Element properties */
 .button {
     background-color: rgb(74, 74, 74);
@@ -28,7 +47,7 @@ body {
 }
 
 .button-footer {
-    padding: 15px;
+    padding: 10px;
 
     align-items: center;
 
@@ -46,15 +65,8 @@ body > .flex {
     height: 100vh;
 }
 
-.f-30 {
-    font-size: 30px;
-}
-
  /* Header properties */
 header {
-    
-    background-color: black;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -65,7 +77,6 @@ header {
 /* Main properties */
 main {
     flex-grow: 1;
-    background-color: black;
 
     display: flex;
     justify-content: center;
@@ -96,12 +107,17 @@ main {
 
 /* Footer properties */
 footer {
+    padding: 10px;
     display: flex;
     background-color: rgb(34 ,34 ,34);
 }
 
 .button-footer .fas {
-    margin: 10px;
+    margin: 5px;
+}
+
+.button-footer .fa-chevron-up{
+    margin: 15px;
 }
 
 .button-footer .flex {
@@ -109,6 +125,18 @@ footer {
     align-items: center;
 }
 
+footer .button {
+    background-color: red;
+    font-weight: bolder;
+
+    padding: 10px;
+}
+
 footer > .flex:nth-of-type(2) {
     justify-content: center;
+}
+
+footer > .flex:nth-of-type(3) {
+    justify-content: flex-end;
+    align-items: center;
 }

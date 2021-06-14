@@ -13,7 +13,7 @@
 <body>
     <div class="flex">
         <!-- Contenuto di intestazione del sito -->
-        <header>
+        <header class="black-background">
             <!-- Pulsanti di full-screen e di speaker-view -->
             <div class="button">
                 <i class="fas fa-th"></i>
@@ -25,7 +25,7 @@
         </header>
 
         <!-- Contenuto principale del sito -->
-        <main>
+        <main class="black-background">
             <div class="partecipant">
                 <div class="name">
                     <i class="fas fa-microphone-slash"></i>
@@ -106,8 +106,8 @@
             <div class="w-20 flex">
                 <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-microphone f-30"></i>
-                        <span >Mute</span>
+                        <i class="fas fa-microphone f-icon"></i>
+                        <span class="f-text">Mute</span>
                     </div>
                     <div>
                         <i class="fas fa-chevron-up"></i>
@@ -115,8 +115,8 @@
                 </div>
                 <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-video f-30"></i>
-                        <span >Stop Video</span>
+                        <i class="fas fa-video f-icon"></i>
+                        <span class="f-text">Stop Video</span>
                     </div>
                     <div>
                         <i class="fas fa-chevron-up"></i>
@@ -127,14 +127,26 @@
             <div class="w-60 flex">
                 <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-user-plus f-30"></i>
-                        <span>Invite</span>
+                        <i class="fas fa-user-plus f-icon"></i>
+                        <span class="f-text">Invite</span>
                     </div>
                 </div>
                 <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-user-friends f-30"></i>
-                        <span >Manage Partecipants</span>
+                        <i class="fas fa-user-friends f-icon"></i>
+                        <span class="f-text">Manage Partecipants</span>
+                    </div>
+                </div>
+                <div class="flex button-footer">
+                    <div class="flex">
+                        <i class="fas fa-chart-bar f-icon"></i>
+                        <span class="f-text">Polling</span>
+                    </div>
+                </div>
+                <div class="flex button-footer">
+                    <div class="flex">
+                        <i class="fas fa-share-square f-icon green"></i>
+                        <span class="f-text">Share Screen</span>
                     </div>
                     <div>
                         <i class="fas fa-chevron-up"></i>
@@ -142,32 +154,35 @@
                 </div>
                 <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-microphone f-30"></i>
-                        <span >Mute</span>
+                        <i class="fas fa-comment f-icon"></i>
+                        <span class="f-text">Chat</span>
                     </div>
-                    <div>
-                        <i class="fas fa-chevron-up"></i>
-                    </div>
-                </div><div class="flex button-footer">
+                </div>
+                <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-microphone f-30"></i>
-                        <span >Mute</span>
+                        <i class="fas fa-record-vinyl f-icon"></i>
+                        <span class="f-text">Record</span>
                     </div>
-                    <div>
-                        <i class="fas fa-chevron-up"></i>
-                    </div>
-                </div><div class="flex button-footer">
+                </div>
+                <div class="flex button-footer">
                     <div class="flex">
-                        <i class="fas fa-microphone f-30"></i>
-                        <span >Mute</span>
+                        <i class="fas fa-th-large f-icon"></i>
+                        <span class="f-text">Breackout Room</span>
                     </div>
-                    <div>
-                        <i class="fas fa-chevron-up"></i>
+                </div>
+                <div class="flex button-footer">
+                    <div class="flex">
+                        <i class="fas fa-ellipsis-h f-icon"></i>
+                        <span class="f-text">More</span>
                     </div>
                 </div>
             </div>
 
-            <div class="w-20 flex"></div>
+            <div class="w-20 flex">
+                <div class="button">
+                    End meeting
+                </div>
+            </div>
         </footer>
     </div>
 </body>
